@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    cursor: pointer;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+section {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+.dateTime {
+    background-color: lightgray;
+    width: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    border-radius: 8px;
+}
+
+#clock {
+    font-weight: bold;
+}
+
+#link-form {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#link-form input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#links-list {
+    list-style: none;
+    padding: 0;
+}
+
+#links-list li {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.delete-link {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.weather-card {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .weather-card img {
+    width: 50px;
+  }
