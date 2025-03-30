@@ -43,7 +43,7 @@ function saveNotes() {
 function loadSavedData() {
   // Load saved dashboard title and notes, or set defaults if not available
   document.getElementById("dashboard-title").innerText =
-    localStorage.getItem("dashboardTitle") || "John Doe Dashboard";
+    localStorage.getItem("dashboardTitle") || "Dashboard";
   document.getElementById("note-area").value =
     localStorage.getItem("dashboardNotes") || "";
 }
@@ -56,7 +56,7 @@ function addLink() {
   const url = urlInput.value.trim();
 
   if (!title || !url) {
-    alert("Enter a title and a URL!"); // Ensure both fields are filled
+    alert("Enter a Title and a URL!"); // Ensure both fields are filled
     return;
   }
 
